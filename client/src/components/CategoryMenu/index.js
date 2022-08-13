@@ -43,7 +43,7 @@ function CategoryMenu() {
 
   return (
     <div>
-    <p>Welcome to The Gift Shop where gifts are customised or handcrafted</p>
+    <p>Taking a ski trip with family, friends or on your ownis an excellent way to stay active.  Enjoy being feeling healthier surrounded by all the fresh air and sunshine that you'll find on the top of the mountain</p>
     <img src="https://compassohio.com/wp-content/uploads/2019/01/tamarackclubfromsnoozerslope.jpg" alt=""></img>
         <h2>Choose a Ski Package:</h2>
         {categories.map((item) => (
