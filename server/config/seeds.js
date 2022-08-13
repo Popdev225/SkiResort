@@ -18,12 +18,12 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Package 6 days 1 free',
+      name: 'Family Package 6 days',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+        'This package includes accomodation in the luxury rooms and meals.  Family are entitled to six hours unlimited equipment hire during duration of stay',
+      image: 'imgfp6.jpg',
       category: categories[0]._id,
-      price: 1000.00,
+      price: 2500.00,
       quantity: 20
     },
     {
@@ -146,7 +146,12 @@ db.once('open', async () => {
     firstName: 'Michelle',
     lastName: 'Holt',
     email: 'mholt@testmail.com',
-    password: 'password62707'
+    password: 'password62707',
+    orders: [
+      {
+        products: [products[0]._id, products[0]._id, products[1]._id]
+      }
+    ]  
   });
 
   console.log('users seeded');
