@@ -2,6 +2,7 @@ import React from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
+import { FcFullTrash } from 'react-icons/fc';
 
 const CartItem = ({ item }) => {
 
@@ -57,9 +58,7 @@ const CartItem = ({ item }) => {
           <span
             role="img"
             aria-label="trash"
-            onClick={() => removeFromCart(item)}
-          >
-            🗑️
+            onClick={() => removeFromCart(item)}>< FcFullTrash />
           </span>
         </div>
       </div>
