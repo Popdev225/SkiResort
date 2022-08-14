@@ -85,13 +85,12 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'This is the end of the season sale in which the dates are from 25 August - 2 September and accomodation in the shared big apartment or luxury rooms including unlimited equipment hire and all day meals that you would require for a comfortable stay throughout the period. Hurry and save !!!',
-      image: 'bedtime-book.jpg',
+      image: 'imgres03.jpg',
       price: 900.00,
-      quantity: 5
+      quantity: 3
     },
   
   ]);
-
   console.log('products seeded');
 
   await User.deleteMany();
