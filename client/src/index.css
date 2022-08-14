@@ -16,6 +16,8 @@
 html,
 body {
   min-height: 100%;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -84,6 +86,34 @@ header {
 }
 
 header a {
+  color: var(--light);
+}
+header li {
+  text-decoration: none;
+  list-style: none;
+}
+header img {
+  max-width: 25%;
+  background-color: var(--light);
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+     font-size: medium;
+  }
+}
+@media screen and (max-width: 992px) {
+  header a {
+     font-size: medium;
+  }
+}
+
+footer {
+  background-color: var(--primary);
+  /* color: var(--light); */
+  width: 100%;
+}
+.footer {
   color: var(--light);
 }
 
