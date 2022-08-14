@@ -1,9 +1,9 @@
 :root {
   --primary: #08a2da;
-  --secondary: #a5dbf6;
-  --tertiary: #954a37;
-  --light: #fafafa;
-  --dark: #01090c;
+  --secondary: #8acffa;
+  --tertiary: #3a0d6f;
+  --light: #e8f8f8;
+  --dark: #00080b;
   --error: rgb(56, 38, 33);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -88,24 +88,24 @@ header a {
 }
 
 button {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-decoration: none;
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 1.5rem;
   border-radius: .5rem;
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
+  margin: 0 1.0px;
   background-color: var(--secondary);
 }
 
 button:hover {
-  opacity: .8;
+  opacity: .9;
 }
 
 button[disabled] {
   cursor: default;
-  opacity: .8;
+  opacity: .9;
 }
 
 img {
@@ -117,7 +117,7 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 50%;
 }
 
 input {
@@ -130,7 +130,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
+  border: 2px solid var(--secondary);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 

@@ -8,6 +8,7 @@ import Auth from '../../utils/auth';
 import { useStoreContext } from '../../utils/GlobalState';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
+import { BiShocked } from 'react-icons/bi';
 
 const stripePromise = loadStripe('pk_test_51LULRzE5IrKGMKYOVpxNuSyeuS716Ta9qJhSc5B668buXvqKWCSQTKRDcuPmqCywCfYZfudggJZJnEA6AY4aXwfF000fYOqZcC');
 
@@ -75,7 +76,7 @@ const Cart = () => {
       <div className="close" onClick={toggleCart}>
         [close]
       </div>
-      <h2>Shopping Cart</h2>
+      <h2>Checkout Cart</h2>
       {state.cart.length ? (
         <div>
           {state.cart.map((item) => (
@@ -94,9 +95,8 @@ const Cart = () => {
         </div>
       ) : (
         <h3>
-          <span role="img" aria-label="shocked">
-            😱
-          </span>
+          <span role="img" aria-label="shocked">< BiShocked /></span>
+
           You haven't added anything to your cart yet!
         </h3>
       )}

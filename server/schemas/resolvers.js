@@ -1,9 +1,8 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User, Product, Category, Order } = require('../models');
 const { signToken } = require('../utils/auth');
-const { populate } = require("../models/User");
-const { isValidObjectId } = require("mongoose");
 const stripe = require('stripe')(process.env.STRIPE_SECRET);
+
 
 const resolvers = {
   Query: {
@@ -22,7 +21,7 @@ const resolvers = {
           $regex: name
         };
       }
-
+// checked ...
       return await Product.find(params).populate('category');
     },
     product: async (parent, { _id }) => {
@@ -42,6 +41,7 @@ const resolvers = {
 
       throw new AuthenticationError('Not logged in');
     },
+
     order: async (parent, { _id }, context) => {
       if (context.user) {
         const user = await User.findById(context.user._id).populate({
