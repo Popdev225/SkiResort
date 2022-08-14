@@ -9,7 +9,6 @@ const Footer = () => {
                     &copy;{(new Date().getFullYear())}
                     {' '}by
                     {' '}<a className="footer" href="https://github.com/stellalph" target="_blank" rel="noopener noreferrer">Stella Ling</a>
-
                 </span>
                 <span><a className="footer" href="https://github.com/stellalph/MERN-GiftMe" target="_blank" rel="noopener noreferrer">< FaGithub /> GitHub Repository</a></span>
             </div>

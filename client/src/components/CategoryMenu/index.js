@@ -57,7 +57,12 @@ function CategoryMenu() {
             {item.name}
           </button>
         ))}
+        <br></br>
+    <p>We also offer ski lessons, delicious take-away meals, heated pool, insurance cover, and transportation at the resort. We also team up with other resort owners and food caterers to secure you the most affordable and best deals for you, your family and friends.  Contact us at 1800 122 122 for more information and our friendly staff would be able to assist you.</p>
+
     </div>
+  
+
   );
 }
 

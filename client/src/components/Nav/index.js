@@ -11,7 +11,7 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/orderHistory">
-              Order History
+               Profile
             </Link>
           </li>
           <li className="mx-1">
