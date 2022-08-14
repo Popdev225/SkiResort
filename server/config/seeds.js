@@ -57,7 +57,7 @@ db.once('open', async () => {
       name: 'Group Package 7 days ',
       category: categories[2]._id,
       description:
-        'This package includes accomodation in the shared big apartment within the resort up to 10 persons with all the facilities including unlimited equipment hire that you would require for a comfortable stay throughout the period.  Date available (17 Aug - 24 Aug). Check-in time: 1:00 pm, Check-out time: 12:00 noon',
+        'This package includes accomodation in the shared big apartment within the resort up to 10 persons with all the facilities including unlimited equipment hire that you would require for a comfortable stay throughout the period.  Date available (17 August - 24 August). Check-in time: 1:00 pm, Check-out time: 12:00 noon.',
       image: 'imggp7.jpg',
       price: 4500.00,
       quantity: 5
@@ -66,7 +66,7 @@ db.once('open', async () => {
       name: 'Group Package 4 days',
       category: categories[2]._id,
       description:
-        'This package includes accomodation in the shared big apartment within the resort up to 10 persons with all the facilities including unlimited equipment hire that you would require for a comfortable stay throughout the period. Date available (17 Aug - 24 Aug). Check-in time: 1:00pm, Check-out time: 12:00 noon',
+        'This package includes accomodation in the shared big apartment within the resort up to 10 persons with all the facilities including unlimited equipment hire that you would require for a comfortable stay throughout the period. Date available (17 August - 24 August). Check-in time: 1:00pm, Check-out time: 12:00 noon.',
       image: 'imggp4.jpg',
       price: 2600.00,
       quantity: 5
@@ -75,7 +75,7 @@ db.once('open', async () => {
       name: 'Special Package 7 days',
       category: categories[3]._id,
       description:
-        'This is end of season sale in which the dates are from 22 Aug - 29 Aug and accomodation in the shared big apartment or luxury rooms including unlimited equipment hire and all day meals that you would require for a comfortable stay throughout the period.  Hurry and save !!!.',
+        'This is end of the season sale in which the dates are from 25 August - 2 September and accomodation in the shared big apartment or luxury rooms including unlimited equipment hire and all day meals that you would require for a comfortable stay throughout the period.  Hurry and save !!!.',
       image: 'imgres02.jpg',
       price: 1000.00,
       quantity: 5
@@ -84,7 +84,7 @@ db.once('open', async () => {
       name: 'Special Package 4 days',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+        'This is the end of the season sale in which the dates are from 25 August - 2 September and accomodation in the shared big apartment or luxury rooms including unlimited equipment hire and all day meals that you would require for a comfortable stay throughout the period. Hurry and save !!!',
       image: 'bedtime-book.jpg',
       price: 900.00,
       quantity: 5
