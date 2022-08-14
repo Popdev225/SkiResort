@@ -75,9 +75,9 @@ db.once('open', async () => {
       name: 'Special Package 7 days',
       category: categories[3]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'tablet.jpg',
-      price: 2500.00,
+        'This is end of season sale in which the dates are from 22 Aug - 29 Aug and accomodation in the shared big apartment or luxury rooms including unlimited equipment hire and all day meals that you would require for a comfortable stay throughout the period.  Hurry and save !!!.',
+      image: 'imgres02.jpg',
+      price: 1000.00,
       quantity: 5
     },
     {
