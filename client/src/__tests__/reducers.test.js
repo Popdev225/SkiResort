@@ -15,18 +15,18 @@ const initialState = {
   products: [],
   cart: [
     {
-      _id: '1',
-      name: 'Soup',
+      _id: '62f8e195b4e61bd50443f198',
+      name: 'Family Package 7 days',
       purchaseQuantity: 1
     },
     {
-      _id: '2',
-      name: 'Bread',
+      _id: '62f8e195b4e61bd50443f199',
+      name: 'Family Package 4 days',
       purchaseQuantity: 2
     }
   ],
   cartOpen: false,
-  categories: [{ name: 'Food' }],
+  categories: [{ name: 'Family' }],
   currentCategory: '1',
 };
 
@@ -53,7 +53,7 @@ test('ADD_TO_CART', () => {
 test('UPDATE_CART_QUANTITY', () => {
   let newState = reducer(initialState, {
     type: UPDATE_CART_QUANTITY,
-    _id: '1',
+    _id: '62f8e195b4e61bd50443f198',
     purchaseQuantity: 3
   });
 
@@ -66,7 +66,7 @@ test('UPDATE_CART_QUANTITY', () => {
 test('REMOVE_FROM_CART', () => {
   let newState1 = reducer(initialState, {
     type: REMOVE_FROM_CART,
-    _id: '1'
+    _id: '62f8e195b4e61bd50443f198'
   });
 
   expect(newState1.cartOpen).toBe(true);
@@ -75,7 +75,7 @@ test('REMOVE_FROM_CART', () => {
 
   let newState2 = reducer(newState1, {
     type: REMOVE_FROM_CART,
-    _id: '2'
+    _id: '62f8e195b4e61bd50443f199'
   });
 
   expect(newState2.cartOpen).toBe(false);
