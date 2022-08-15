@@ -10,7 +10,7 @@ const Footer = () => {
                     {' '}by
                     {' '}<a className="footer" href="https://github.com/stellalph" target="_blank" rel="noopener noreferrer">Stella Ling</a>
                 </span>
-                <span><a className="footer" href="https://github.com/stellalph/MERN-GiftMe" target="_blank" rel="noopener noreferrer">< FaGithub /> GitHub Repository</a></span>
+                <span><a className="footer" href="https://github.com/stellalph/MERN-Ski-Resort.git" target="_blank" rel="noopener noreferrer">< FaGithub /> GitHub Repository</a></span>
             </div>
             <div className="footer px-2">
                 Photographs courtesy of <a className="footer" href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>

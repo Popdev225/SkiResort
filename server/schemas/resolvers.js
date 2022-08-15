@@ -3,7 +3,6 @@ const { User, Product, Category, Order } = require('../models');
 const { signToken } = require('../utils/auth');
 const stripe = require('stripe')(process.env.STRIPE_SECRET);
 
-
 const resolvers = {
   Query: {
     categories: async () => {
@@ -21,7 +20,7 @@ const resolvers = {
           $regex: name
         };
       }
-// checked ...
+
       return await Product.find(params).populate('category');
     },
     product: async (parent, { _id }) => {
@@ -41,7 +40,6 @@ const resolvers = {
 
       throw new AuthenticationError('Not logged in');
     },
-
     order: async (parent, { _id }, context) => {
       if (context.user) {
         const user = await User.findById(context.user._id).populate({
@@ -58,9 +56,8 @@ const resolvers = {
       const url = new URL(context.headers.referer).origin;
       const order = new Order({ products: args.products });
       const line_items = [];
-
       const { products } = await order.populate('products');
-
+      // check !
       for (let i = 0; i < products.length; i++) {
         const product = await stripe.products.create({
           name: products[i].name,
@@ -101,7 +98,8 @@ const resolvers = {
     addOrder: async (parent, { products }, context) => {
       console.log(context);
       if (context.user) {
-        const order = new Order({ products });
+        console.log(products);
+        const order = new Order({ products })
 
         await User.findByIdAndUpdate(context.user._id, { $push: { orders: order } });
 
