@@ -17,3 +17,14 @@ This project is to build an application encouraging the users to stay active, en
 - [References](#references)
 - [License](#license)
 
+## Technologies
+
+## Deployment
+
+## Usage
+
+## References
+
+## License
+
+This project is licensed under the terms of the MIT license
