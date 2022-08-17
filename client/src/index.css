@@ -81,6 +81,8 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Header */
+
 header {
   background: var(--primary);
   height: 80px
@@ -98,6 +100,8 @@ header img {
   background-color: var(--light);
 }
 
+
+
 @media screen and (max-width: 992px) {
   nav {
      font-size: medium;
@@ -109,10 +113,12 @@ header img {
   }
 }
 
+/* Footer */
+
 footer {
   background-color: var(--primary);
  
-  gap: 2rem;
+ 
   width: 100%;
   height: 90px;
   text-align: center;
@@ -129,6 +135,8 @@ footer {
 .footer {
   color: var(--light);
 }
+
+/* Button */
 
 button {
   font-size: 1.1rem;
@@ -158,6 +166,8 @@ img {
 span[role="img"] {
   cursor: default;
 }
+
+/*  Form*/
 
 form {
   width: 50%;
@@ -236,6 +246,9 @@ input:focus {
   padding-top: var(--spacing-two);
   padding-bottom: var(--spacing-two);
 }
+
+/*  card*/
+
 
 .card {
   width: 25%;
