@@ -45,7 +45,7 @@ function CategoryMenu() {
     <div>
      <h1>A warm welcome to MERN Ski Resort</h1> 
     <p>Taking a ski trip with family, friends or on your own is an excellent way to stay active.  Enjoy being feeling healthier surrounded by all the fresh air and sunshine that you'll find on the top of the mountain. You will also burn a ton of calories while getting in some great runs.</p>
-    <img src="https://compassohio.com/wp-content/uploads/2019/01/tamarackclubfromsnoozerslope.jpg" alt=""></img>
+    {/* <img src="https://compassohio.com/wp-content/uploads/2019/01/tamarackclubfromsnoozerslope.jpg" alt=""></img> */}
         <h2>Choose a Ski Package:</h2>
         {categories.map((item) => (
           <button
