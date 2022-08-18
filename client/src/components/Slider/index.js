@@ -9,7 +9,7 @@ import {
   CarouselCaption,
 } from 'reactstrap';
 
-<h8>A warm welcome to MERN Ski Resort</h8>
+// <h8>A warm welcome to MERN Ski Resort</h8>
 
 const items = [
   {
@@ -25,7 +25,7 @@ const items = [
     key: 2,
   },
   {
-    src: 'https://skyticket.com/guide/wp-content/uploads/2020/10/shutterstock_1487365274.jpg',
+    src: 'https://images.unsplash.com/photo-1520529986992-d4ce365fcfc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
     altText: 'Slide 3',
     caption: 'Slide 3',
     key: 3,
