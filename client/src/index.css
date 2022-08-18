@@ -131,11 +131,13 @@ footer {
   font-weight: 500;
   flex-wrap: wrap;
   font-size: 22px;
-  padding-top: 20px;
+  padding-top: 15px;
 
 }
 .footer {
   color: var(--light);
+  font-size: 22px;
+  font-weight: 500;
 }
 
 /* Button */

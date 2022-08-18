@@ -25,6 +25,10 @@ This project is to build an application encouraging the users to stay active, en
 
 ## References
 
+* Request Response - The Full Stack Blog - Set up MongoDB Atlas dated May 10, 2022
+* Request Response - The Full Stack Blog - Deploy with Heroku and MongoDB Atlas dated July, 2022
+* Request Response - The Full Stack Blog - Using the GraphQL Playground in a MERN application dated May 19, 2022
+
 ## License
 
 This project is licensed under the terms of the MIT license
