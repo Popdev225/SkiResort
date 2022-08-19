@@ -13,19 +13,19 @@ import {
 
 const items = [
   {
-    src: 'https://images.unsplash.com/photo-1546466619-fae0658da034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80',
+    src: 'https://images.unsplash.com/photo-1546466619-fae0658da034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=30',
     altText: 'Be active',
     caption: 'Stay Healthy and Be Active',
     key: 1,
   },
   {
-    src: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    src: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=30',
     altText: 'Stay Active and Healthy',
     caption: 'Surrounded by the fresh air and sunshine',
     key: 2,
   },
   {
-    src: 'https://images.unsplash.com/photo-1520529986992-d4ce365fcfc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    src: 'https://images.unsplash.com/photo-1520529986992-d4ce365fcfc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=30',
     altText: 'Enjoy your ski holiday trip',
     caption: 'There is no better souvenir than your smile on a ski run',
     key: 3,
