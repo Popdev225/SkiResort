@@ -136,9 +136,18 @@ footer {
 }
 .footer {
   color: var(--light);
-  font-size: 22px;
-  font-weight: 500;
+
 }
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  font-size: 25px;
+}
+
+
 
 /* Button */
 

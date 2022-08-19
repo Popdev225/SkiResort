@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaGithub, FaTwitterSquare } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+import { BsGithub, BsTwitter } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
 
 
 const Footer = () => {
@@ -16,15 +16,16 @@ const Footer = () => {
                     {' '}by
                     {' '}<a className="footer px-2" href="https://github.com/stellalph" target="_blank" rel="noopener noreferrer">Stella Ling</a>
                 </span>
-                <span><a className="footer px-2" href="https://github.com/stellalph/MERN-Ski-Resort.git" target="_blank" rel="noopener noreferrer">< FaGithub /></a></span>
-                <span><a className="footer px-2" href="https://www.linkedin.com/in/stella-ling-46246476" target="_blank" rel="noopener noreferrer">< FaLinkedin /></a></span>
-                <span><a className="footer px-2" href="https://twitter.com" target="_blank" rel="noopener noreferrer">< FaTwitterSquare /></a></span>
+                <span><a className="footer px-2" href="https://github.com/stellalph/MERN-Ski-Resort.git" target="_blank" rel="noopener noreferrer">< BsGithub /></a></span>
+                <span><a className="footer px-2" href="https://www.linkedin.com/in/stella-ling-46246476" target="_blank" rel="noopener noreferrer">< BsLinkedin /></a></span>
+                <span><a className="footer px-2" href="https://twitter.com" target="_blank" rel="noopener noreferrer">< BsTwitter /></a></span>
             </div>
 
-        
+
 
         </footer>
     );
 };
 
 export default Footer;
+
