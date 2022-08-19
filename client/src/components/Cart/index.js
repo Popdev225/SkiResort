@@ -65,7 +65,7 @@ const Cart = () => {
   if (!state.cartOpen) {
     return (
       <div className="cart-closed" onClick={toggleCart}>
-        <span role="img" aria-label="trash">< BsCartFill />
+        <span role="img" aria-label="trash">< BsCartFill style={{color:'dark', fontSize:'55px'}}/>
 </span>
       </div>
     );
@@ -76,7 +76,7 @@ const Cart = () => {
       <div className="close" onClick={toggleCart}>
         [close]
       </div>
-      <h2>Checkout Cart</h2>
+      <h2>CHECKOUT CART</h2>
       {state.cart.length ? (
         <div>
           {state.cart.map((item) => (
@@ -95,9 +95,8 @@ const Cart = () => {
         </div>
       ) : (
         <h3>
-          <span role="img" aria-label="shocked">< BiShocked /></span>
-
-          You haven't added anything to your cart yet!
+          <span role="img" aria-label="shocked">< BiShocked style={{colour: 'navy', fontSize: '50px'}}/></span>
+            Please add ski package of your choice.
         </h3>
       )}
     </div>

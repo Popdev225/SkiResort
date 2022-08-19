@@ -3,8 +3,8 @@ import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import './contact.css'
+
+
 
 const Contact = () => {
   const {
