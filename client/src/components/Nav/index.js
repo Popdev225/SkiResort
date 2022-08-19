@@ -37,7 +37,7 @@ function Nav() {
           </li>
           <li className="mx-1">
             <Link to="/contact">
-              Contact Us
+              About
             </Link>
           </li>
         </ul>
