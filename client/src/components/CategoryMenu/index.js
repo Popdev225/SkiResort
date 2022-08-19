@@ -7,6 +7,7 @@ import {
 } from '../../utils/actions';
 import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
+import {BsTelephone} from 'react-icons/bs';
 
 function CategoryMenu() {
   const [state, dispatch] = useStoreContext();
@@ -58,8 +59,10 @@ function CategoryMenu() {
         </button>
       ))}
       <br></br>
-      <p>We also offer ski lessons, delicious take-away meals, heated pool, insurance cover, and transportation at the resort. We also team up with other resort owners and food caterers to secure you the most affordable and best deals for you, your family and friends.  Contact us at 1800 122 122 for more information and our friendly staff would be able to assist you.</p>
-
+      <p>We also offer ski lessons, delicious take-away meals, heated pool, insurance cover, and transportation at the resort. We also team up with other resort owners and food caterers to secure you the most affordable and best deals for you, your family and friends.</p>
+      <div>
+        <p>Contact us at 1800 122 122 <BsTelephone style={{color: 'blue', fontSize:'30px'}}/>for more information and our friendly staff would be able to  assist you.</p>
+      </div>
     </div>
 
 
