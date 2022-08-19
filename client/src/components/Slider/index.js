@@ -15,7 +15,7 @@ const items = [
   {
     src: 'https://images.unsplash.com/photo-1546466619-fae0658da034?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80',
     altText: 'Be active',
-    caption: 'A warm welcome to MERN Ski Resort',
+    caption: 'Stay Healthy and Be Active',
     key: 1,
   },
   {

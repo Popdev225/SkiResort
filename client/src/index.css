@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
   --primary: #08a2da;
   --secondary: #8acffa;
@@ -38,12 +40,12 @@ h5,
 h6 {
   font-family: 'Arial', sans-serif;
   font-weight: 500;
-  margin: 5px 0;
-  line-height: 1.25;
+  margin: 10px 0;
+  line-height: 2.25;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 5.25rem;
 }
 
 h2 {
@@ -190,6 +192,8 @@ input:focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
+
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -261,6 +265,16 @@ input:focus {
 .error-text {
   color: var(--error);
 }
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {

@@ -58,7 +58,7 @@ const CartItem = ({ item }) => {
           <span
             role="img"
             aria-label="trash"
-            onClick={() => removeFromCart(item)}>< BsTrash2 />
+            onClick={() => removeFromCart(item)}>< BsTrash2 style={{ color: 'dark-grey', fontSize: '30px' }} />
           </span>
         </div>
       </div>
