@@ -49,8 +49,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="Skiing">< FaSkiing style={{ color: 'white', fontSize: '25px' }} /></span>
-          -MERN-Ski-Resort
+          <span role="img" aria-label="Skiing">< FaSkiing style={{ color: 'white', fontSize: '35px' }} /></span> MERN Ski Resort
         </Link>
       </h1>
 
