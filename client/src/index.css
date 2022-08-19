@@ -121,8 +121,9 @@ footer {
   display: inline-flex;
   font-weight: 500;
   flex-wrap: wrap;
-  font-size: 22px;
+  font-size: 20px;
   padding-top: 15px;
+  
 
 }
 .footer {
