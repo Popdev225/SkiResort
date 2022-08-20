@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins&display=swap');
+
 .cart {
   position: fixed;
   top: 0;
@@ -30,7 +32,6 @@
 .cart .close:hover {
   text-decoration: underline;
 }
-
 .cart-closed {
   position: fixed;
   top: 2%;
@@ -69,7 +70,7 @@
   }
 
   .cart-closed {
-    position: relative;
+    position: fixed;
     margin: 0 auto;
   }
 }
