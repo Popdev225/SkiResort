@@ -25,8 +25,6 @@ const Footer = () => {
 
             </div>
 
-
-
         </footer>
     );
 };
