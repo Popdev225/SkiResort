@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
-
+import { BsTelephone } from 'react-icons/bs';
 
 
 const Contact = () => {
@@ -65,15 +65,24 @@ const Contact = () => {
   };
 
   return (
-    <div className='ContactForm'>
+    <div className='ContactForm' >
       <div className='container'>
         <div className='row'>
-          <div className='col-12 text-center'>
+          <div className='col-12'>
             <div className='contactForm'>
-              <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
+              <form id='contact-form' onSubmit={handleSubmit(onSubmit)} className="col-12 m-3" noValidate >
                 {/* Row 1 of form */}
                 <div className='row formRow'>
-                  <div className='col-6'>
+                  <h1>Contact Us</h1>
+                  <br></br>
+                  <p>We also offer ski lessons, delicious take-away meals, heated pool, insurance cover, and transportation at the resort. We also team up with other resort owners and food caterers to secure you the most affordable and best deals for you, your family and friends.</p>
+
+                  <p>Contact us at 1800 122 122 <BsTelephone style={{ color: 'blue', fontSize: '30px' }} />for more information and our friendly staff would be able to  assist you.</p>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <div className='col-5'>
                     <input
                       type='text'
                       name='name'
@@ -92,7 +101,10 @@ const Contact = () => {
                     ></input>
                     {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                   </div>
-                  <div className='col-6'>
+                  <br></br>
+                  <br></br>
+
+                  <div className='col-5'>
                     <input
                       type='email'
                       name='email'
@@ -111,7 +123,8 @@ const Contact = () => {
                 </div>
                 {/* Row 2 of form */}
                 <div className='row formRow'>
-                  <div className='col'>
+                  <div className='col-10'>
+                    <br></br>
                     <input
                       type='text'
                       name='subject'
@@ -135,7 +148,9 @@ const Contact = () => {
                 </div>
                 {/* Row 3 of form */}
                 <div className='row formRow'>
-                  <div className='col'>
+                  <div className='col-10'>
+                    <br></br>
+
                     <textarea
                       rows={3}
                       name='message'
@@ -148,10 +163,11 @@ const Contact = () => {
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
-
+                <br></br>
                 <button className='submit-btn' disabled={disabled} type='submit'>
                   Submit
                 </button>
+                <br></br>
               </form>
             </div>
             <ToastContainer />

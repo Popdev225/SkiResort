@@ -10,6 +10,7 @@ This project is to build an application encouraging the users to stay active, en
 
 The URL of the GitHub repository is https://github.com/stellalph/MERN-Ski-Resort.git and the repository name is MERN-Ski-Resort.
 
+The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
 ## Table of Contents
 
@@ -20,6 +21,22 @@ The URL of the GitHub repository is https://github.com/stellalph/MERN-Ski-Resort
 - [License](#license)
 
 ## Technologies
+
+* The application is a MERN stack application which is a group of four technologies that is :-
+
+    * REACT (for the front end)
+    * GraphQL with a Node.js and Express.js server
+    * MongoDB and the Mongoose ODM for the database
+
+*   The MERN stack has a three-layer architecture based on Model-View-Controller pattern and each interconnected layer performs a specific function in the application:-
+
+  | Client (View)          | React JS                   | User inputs data and Data display                        |
+  | ---------------------- | -------------------------- | -------------------------------------------------------- |
+  | **Server(Controller)** | **Express.js and Node.js** | **Method called to store and retrieve data in database** |
+  | **Database(Model)**    | **MongoDB**                | **Stores raw data and contains no logic**                |
+
+
+
 
 ## Deployment
 
