@@ -73,17 +73,36 @@ const Contact = () => {
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} className="col-12 m-3" noValidate >
                 {/* Row 1 of form */}
                 <div className='row formRow'>
+
+                {/* About us section */}
+                  <br></br>
+                  <br></br>
                   <h1>About Us</h1>
                   <br></br>
+                  <br></br>
+                  <br></br>
+                  <p>We're a close-knit bunch in a small company so we can offer a very personal service.  Combined, we've had more ski days than you can shake a stick at and we all love to get on the slopes to become big kids again.  You will meet our team, Bradley (the managing director), Pete (Senior Ski Sales Specialist and Instructor),  Lauren (Finance and Administration) there to welcome the enthusiastic skiers at the resort.</p>
+                  <br></br>
+                 {/* Contact */}
+                  <h1>Contact Us</h1>
 
-                  
-
+                  <br></br>
                   <p>We also offer ski lessons, delicious take-away meals, heated pool, insurance cover, and transportation at the resort. We also team up with other resort owners and food caterers to secure you the most affordable and best deals for you, your family and friends.</p>
 
                   <p></p>
-
+                  {/* Enquiry  */}
                   <p>Contact us at 1800 122 122 <BsTelephone style={{ color: 'blue', fontSize: '30px' }} />for more information and our friendly staff would be able to  assist you.</p>
 
+                  <br></br>
+
+                  <p>If you 'd like to make an enquiry or get in touch about a ski package that you have already purchased or like to make a cancellation due to unforeseen circumstances and within fourteen days period, we will refund to you your money.</p>
+
+                  <p>You can get in touch with our team by submitting the form.  For any other queries enter everything we need to know below and we'll make sure the right team gets back to you using the contact details provided.</p>
+
+                  <br></br>
+                  <br></br>
+
+                 <p style = {{color: 'grey',fontSize:'15px', textDecorationStyle: 'bolder'}}>Due to exceptional demand, we are currently experiencing extremely high call volumes.  We apologise for the inconvenience and working as quickly as possible to repond to everyone.</p>
 
                   <br></br>
                   <br></br>
@@ -177,7 +196,7 @@ const Contact = () => {
                 <br></br>
               </form>
             </div>
-            <ToastContainer />
+            <ToastContainer style={{ color: 'green'}} />
           </div>
         </div>
       </div>
