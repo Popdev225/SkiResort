@@ -170,7 +170,7 @@ input {
 /* Form Input */
 
 input:focus {
-  border: 3px solid var(--secondary);
+  border: 3px solid var(--dark);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 /* Contact Form input*/
@@ -180,14 +180,14 @@ input:focus {
 .formInput {
   padding: 15px 10px;
   background-color: var(--whitesmoke);
-  box-shadow: 0 0 0 2px var(--blue);
+  box-shadow: 0 0 0 2px var(--dark);
   border: 10px;
   color: var(--blue);
 }
 .formInput:focus {
-  background-color: var(--blue);
+  background-color: var(--dark);
   outline: none;
-  box-shadow: 0 0 0 2px var(--blue);
+  box-shadow: 0 0 0 2px var(--dark);
   color: var(--light);
 }
 
@@ -212,13 +212,10 @@ input:focus {
   border-radius: 6px;
   width: 200px;
   margin-left: 75px;
-  background-color: var(--dark blue);
+  background-color: var(--dark);
 }
 
-.App {
-  height: 75vh;
-  margin-top: 15vh;
-}
+
 
 /* Container */
 

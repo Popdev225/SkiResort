@@ -74,21 +74,21 @@ const Contact = () => {
                 {/* Row 1 of form */}
                 <div className='row formRow'>
 
-                {/* About us section */}
+                  {/* About us section */}
                   <br></br>
                   <br></br>
                   <br></br>
                   <h1>About Us</h1>
                   <br></br>
-                  <br></br>                 
+                  <br></br>
                   <p>We're a close-knit bunch in a small company so we can offer a very personal service.  Combined, we've had more ski days than you can shake a stick at and we all love to get on the slopes to become big kids again.  You will meet our team, Bradley (the managing director), Pete (Senior Ski Sales Specialist and Instructor),  Lauren (Finance and Administration) there to welcome the enthusiastic skiers at the resort.</p>
 
 
 
 
-                  
+
                   <br></br>
-                 {/* Contact */}
+                  {/* Contact */}
                   <h1>Contact Us</h1>
 
                   <br></br>
@@ -107,7 +107,7 @@ const Contact = () => {
                   <br></br>
                   <br></br>
 
-                 <p style = {{color: 'grey',fontSize:'15px', textDecorationStyle: 'bolder'}}>Due to exceptional demand, we are currently experiencing extremely high call volumes.  We apologise for the inconvenience and working as quickly as possible to repond to everyone.</p>
+                  <p style={{ color: 'darker', fontSize: '20px', textDecorationStyle: 'bolder' }}>Due to exceptional demand, we are currently experiencing extremely high call volumes.  We apologise for the inconvenience and working as quickly as possible to repond to everyone.</p>
 
                   <br></br>
                   <br></br>
@@ -203,7 +203,7 @@ const Contact = () => {
                 <br></br>
               </form>
             </div>
-            <ToastContainer style={{ color: 'green'}} />
+            <ToastContainer style={{ color: 'green' }} />
           </div>
         </div>
       </div>
