@@ -22,13 +22,13 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
 ## Technologies Used
 
-The MERN stack has a three-layer architecture based on Model-View-Controller pattern and each interconnected layer performs a specific function in the application and this application is a MERN stack application which is a group of four technologies:-
+*   The MERN stack has a three-layer architecture based on Model-View-Controller pattern and each interconnected layer performs a specific function in the application and this application is a MERN stack application which is a group of four technologies:-
 
     *    React JS for the front end, that is, the client (View) in which the user inputs data and the data display
     *   GraphQL with a Node.js and Express.js server for the method called to store and retrieve
     *   MongoDB and Mongoose ODM for the database (Model) to store raw data and contains no logic
 
-The following npm packages were installed to this application:-
+*   The following npm packages were installed to this application:-
 
     *  
 

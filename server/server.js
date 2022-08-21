@@ -5,7 +5,7 @@ const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
 require('dotenv').config();
 
-// import our typeDefs and resolvers
+// import the typeDefs and resolvers
 const { authMiddleware } = require('./utils/auth');
 const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
@@ -16,7 +16,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   context: authMiddleware,
-  // These two lines below enable the playground when deployed to heroku. You can remove them if you don't want this functionality
+  // Enable the playground when deployed to Heroku
   introspection: true,
   playground: true,
 });
