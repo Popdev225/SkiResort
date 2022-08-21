@@ -93,7 +93,8 @@ function Signup(props) {
         <p>Whether you're looking for self-catering accomodation, a simple chalet, a quiet refuge, or even an apartment or hostel, our selection of affordable ski breaks or packages will help you find the right fit.  These accomodation options may not feature world-class spa facilities or Michelin star dining but you can still find these on our sites and they are certainly extremely clean and comfortable which is all you would ever need on a short ski break.  Our reasonably priced packages will all provide the fantastic value for money.</p>
         <br></br>
         <p>Here at MERN Ski Resort, we also recognise that not everyone has the time to take a week off work or some other personal commitments.  We believe in skiing on your own terms or a simple trip to the slopes is all you need to leave the resort feeling reinvigorated. Just take your pick from our selection of packages and also we team up with our sister ski resorts owners from all round globe to find you the best deals.  Just speak to one of ski specialist who are able to make the first-hand recommendations. </p>
-
+        <br></br>
+        <br></br>
         <p>The team at MERN Ski Resort</p>
 
         </div>
