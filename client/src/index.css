@@ -119,10 +119,10 @@ img, svg {
 /* Button */
 
 button {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   text-decoration: none;
   padding: 0.25rem 1.5rem;
-  border-radius: .5rem;
+  border-radius: 1rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -154,14 +154,15 @@ span[role="img"] {
 /*  Form*/
 
 form {
-  width: 50%;
+  width: 100%;
   background-color: white;
 }
 
 input {
   font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
+  /* padding: 0.25rem; */
+  padding-left: 20rem;
+  border: 2px solid var(--dark);
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
