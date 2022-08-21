@@ -30,7 +30,21 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
 *   The following npm packages were installed to this application:-
 
-    *  
+    *   Server (Back-End)
+        
+        *   apollo-server-express (npm i apollo-server-express)
+        *   bcrypt (npm installl bcrypt) 
+        *   dotenv (npm install dotenv)
+        *   express (npm install express)
+        *   graphql (npm install graphql)
+        *   jsonwebtoken (npm install jsonwebtoken)
+        *   mongoose (npm install mongoose)
+        *   stripe (npm install stripe --save)
+
+    *   Client (Front-End)
+
+    
+    
 
 
     
