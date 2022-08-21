@@ -10,7 +10,6 @@ The URL of the GitHub repository is https://github.com/stellalph/MERN-Ski-Resort
 
 The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
-
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
@@ -78,9 +77,14 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
   ![alt text](./client/public/images/GraphQLex.jpg)
 
-
+- This application also uses sensitive API key information on the server - JWT, MONGODB_URL and Stripe Secret Key has loaded onto .ENV file has been loaded for the protection. Emailjs 's template ID, Service ID and User ID has also relocated to .ENV file on the client's side.
 
 ## Deployment
+
+- This application has been deployed to Heroku with MongoDB database using MongoDB Atlas and below is an example of MongoDB database using MongoDB Atlas (products, users and purchase history):-
+
+  ![alt text](./client/public/images/mongodbatlas.jpg)
+  ![alt text](./client/public/images/mongodbatlas2.jpg)
 
 ## Usage
 
