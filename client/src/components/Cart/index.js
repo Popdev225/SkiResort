@@ -66,7 +66,7 @@ const Cart = () => {
   if (!state.cartOpen) {
     return (
       <div className="cart-closed" onClick={toggleCart}>
-        <span role="img" aria-label="trash">< BsCartFill />
+      <span role="img" aria-label="trash">< BsCartFill style={{fontSize:'45px',justifyContent:'center'}} />
 </span>
       </div>
     );
