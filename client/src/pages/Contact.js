@@ -97,11 +97,11 @@ const Contact = () => {
                   <p>If you 'd like to make an enquiry or get in touch about a ski package that you have already purchased or like to make a cancellation due to unforeseen circumstances and within fourteen days period, we will refund to you your money.</p>
 
                   <p>You can get in touch with our team by submitting the form.  For any other queries enter everything we need to know below and we'll make sure the right team gets back to you using the contact details provided.</p>
-                  <br></br>npm
                   <br></br>
                   <br></br>
+                  <h3>Contact Form</h3>
                   <br></br>
-
+                  <h5>Please note that this form do not accept invalid email address</h5>
                   {/*Form Input Area  */}
                   <div className='col-5'>
                     <input
