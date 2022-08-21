@@ -104,7 +104,7 @@ const Contact = () => {
                   <br></br>
                   <br></br>
                   <br></br>
-                
+
                   {/*Form Input Area  */}
                   <div className='col-5'>
                     <input
@@ -126,8 +126,6 @@ const Contact = () => {
                     {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                   </div>
                   <br></br>
-                  <br></br>
-
                   <div className='col-5'>
                     <input
                       type='email'
@@ -174,9 +172,8 @@ const Contact = () => {
                 <div className='row formRow'>
                   <div className='col-10'>
                     <br></br>
-
                     <textarea
-                      rows={3}
+                      rows={8}
                       name='message'
                       {...register('message', {
                         required: true
@@ -194,7 +191,7 @@ const Contact = () => {
                 <br></br>
               </form>
             </div>
-            <ToastContainer style={{ color: 'green' }} />
+            <ToastContainer />
           </div>
         </div>
       </div>

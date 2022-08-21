@@ -200,6 +200,12 @@ input:focus {
   color: var(--dark);
   opacity: 1;
 }
+
+
+
+
+
+
 .errorMessage {
   color: #f45532;
   font-size: 14px;
@@ -214,8 +220,6 @@ input:focus {
   margin-left: 75px;
   background-color: var(--dark);
 }
-
-
 
 /* Container */
 
