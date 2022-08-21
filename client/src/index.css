@@ -185,10 +185,10 @@ input:focus {
   color: var(--blue);
 }
 .formInput:focus {
-  background-color: var(--dark);
+  background-color: var(--grey);
   outline: none;
   box-shadow: 0 0 0 2px var(--dark);
-  color: var(--light);
+  color: var(--dark);
 }
 
 .formInput::placeholder {

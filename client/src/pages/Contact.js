@@ -79,8 +79,8 @@ const Contact = () => {
                   <h1>About Us</h1>
                   <br></br>
                   <br></br>
-                  <p>We're a close-knit bunch in a small company so we can offer a very personal service.  Combined, we've had more ski days than you can shake a stick at and we all love to get on the slopes to become big kids again.  You will meet our team, Bradley (the managing director), Pete (Senior Ski Sales Specialist and Instructor),  Lauren (Finance and Administration) there to welcome the enthusiastic skiers at the resort.</p>
-
+                  <p>We're a close-knit bunch in a small company so we can offer a very personal service.  Combined, we've had more ski days than you can shake a stick at and we all love to get on the slopes to become big kids again.  You will meet our team, Bradley (the managing director), Pete and Shaun (Senior Ski Sales Specialists and Instructors),  Lauren and Sheena (Finance and Administration) there to welcome the enthusiastic skiers at the resort.</p>
+                  <img src="/../../../images/team01.jpg" alt=""></img>
                   <br></br>
                   {/* Contact */}
                   <h1>Contact Us</h1>
@@ -97,10 +97,7 @@ const Contact = () => {
                   <p>If you 'd like to make an enquiry or get in touch about a ski package that you have already purchased or like to make a cancellation due to unforeseen circumstances and within fourteen days period, we will refund to you your money.</p>
 
                   <p>You can get in touch with our team by submitting the form.  For any other queries enter everything we need to know below and we'll make sure the right team gets back to you using the contact details provided.</p>
-                  <br></br>
-                  <br></br>
-                  <p><strong>Due to exceptional demand, we are currently experiencing extremely high call volumes.  We apologise for the inconvenience and working as quickly as possible to repond to everyone.</strong></p>
-
+                  <br></br>npm
                   <br></br>
                   <br></br>
                   <br></br>
@@ -173,7 +170,7 @@ const Contact = () => {
                   <div className='col-10'>
                     <br></br>
                     <textarea
-                      rows={8}
+                      rows={6}
                       name='message'
                       {...register('message', {
                         required: true
