@@ -28,12 +28,14 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
     * GraphQL with a Node.js and Express.js server
     * MongoDB and the Mongoose ODM for the database
 
-*   The MERN stack has a three-layer architecture based on Model-View-Controller pattern and each interconnected layer performs a specific function in the application:-
+*   The MERN stack has a three-layer architecture based on Model-View-Controller pattern and each interconnected layer performs a specific function in the application and this application is a MERN stack application which is a group of four technologies:-
 
-  | Client (View)          | React JS                   | User inputs data and Data display                        |
-  | ---------------------- | -------------------------- | -------------------------------------------------------- |
-  | **Server(Controller)** | **Express.js and Node.js** | **Method called to store and retrieve data in database** |
-  | **Database(Model)**    | **MongoDB**                | **Stores raw data and contains no logic**                |
+    * React JS for the front end, that is, the client (View) in which the user inputs data and the data display
+    * GraphQL with a Node.js and Express.js server for the method called to store and retrieve
+    * MongoDB and Mongoose ODM for the database (Model) to store raw data and contains no logic
+    
+
+ 
 
 
 
