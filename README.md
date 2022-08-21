@@ -24,11 +24,13 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
 *   The MERN stack has a three-layer architecture based on Model-View-Controller pattern and each interconnected layer performs a specific function in the application and this application is a MERN stack application which is a group of four technologies:-
 
-    *    React JS for the front end, that is, the client (View) in which the user inputs data and the data display
-    *   GraphQL with a Node.js and Express.js server for the method called to store and retrieve
-    *   MongoDB and Mongoose ODM for the database (Model) to store raw data and contains no logic
+    *    React JS for the front end, that is, the client (View) in which the user inputs data and the data display,
+    *   GraphQL with a Node.js and Express.js server for the method called to store and retrieve data,
+    *   MongoDB and Mongoose ODM for the database (Model) to store raw data and contains no logic.
 
-*   The following npm packages were installed to this application:-
+*   As a start and at the command prompt, type in *npm install* to ensure all that the dependencies are installed.
+
+*   In addition, the following npm packages were installed to this application:-
 
     *   Server (Back-End)
         
@@ -43,7 +45,32 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
     *   Client (Front-End)
 
-    
+        *   reactstrap (npm install reactstrap react react-dom)
+        *   bootstrap (npm install --save bootstap)
+        *   react Icons (npm install react-icons --save)
+        *   react (npm i react)
+        *   react toastify (npm install --save react-toastify)
+        *   jwt-decode (npm install jwt-decode)
+        *   validator (npm i validator)
+        *   @emailjs/browser (npm install @emailjs/browser)
+        *   web vitals (npm install web-vitals)
+        *   react-hook-form (npm install react-hook-form)
+        *   react-router-dom (npm i react-router-dom)
+        *   react-scripts (npm i react-scripts)
+        *   moment (npm i moments)
+        *   graphql-tag(npm i graphql-tag)
+        *   graphql (npm install graphql)
+        *   emailjs (npm install emailjs)
+        *   date-fns (date-fns)
+        *   stripe (npm install stripe --save)
+        *   apollo-link-context (npm i apollo-link-context)
+        *   apollo Client (npm i @apollo/client)
+        *   react apollo-hooks (npm install @apollo/react-hooks)
+        *   apollo-boost (npm i apollo-boost)
+
+*  Before deploying to Heroku, this application is run in develop mode and tested using GraphQL.
+
+
     
 
 
