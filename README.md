@@ -68,7 +68,13 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
         *   react apollo-hooks (npm install @apollo/react-hooks)
         *   apollo-boost (npm i apollo-boost)
 
-*  Before deploying to Heroku, this application is run in develop mode and tested using GraphQL.
+
+* Before deploying to Heroku, the application is run in develop mode and tested using GraphQL by entering at command prompt:-
+
+  - npm run seed
+  - npm run develop ( cd to the correct directory)
+
+    ![alt text](./client/public/images/dev01.jpg)
 
 
     
