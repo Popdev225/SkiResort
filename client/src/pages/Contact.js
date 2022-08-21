@@ -79,7 +79,7 @@ const Contact = () => {
                   <h1>About Us</h1>
                   <br></br>
                   <br></br>
-                  <p>We're a close-knit bunch in a small company so we can offer a very personal service.  Combined, we've had more ski days than you can shake a stick at and we all love to get on the slopes to become big kids again.  You will meet our team, Bradley (the managing director), Pete and Shaun (Senior Ski Sales Specialists and Instructors),  Lauren and Sheena (Finance and Administration) there to welcome the enthusiastic skiers at the resort.</p>
+                  <p>We're a close-knit bunch in a small company so we can offer a very personal service.  Combined, we've had more ski days than you can shake a stick at and we all love to get on the slopes to become big kids again.  You will meet our team, Bradley (the managing director), Pete and Shaun (Senior Ski Sales Specialists and Instructors),  Lauren and Sheena (Finance and Administration) there to welcome the enthusiastic skiers at the resort.   Meet the team ......</p>
                   <img src="/../../../images/team01.jpg" alt=""></img>
                   <br></br>
                   {/* Contact */}
