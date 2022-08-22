@@ -202,11 +202,6 @@ input:focus {
   opacity: 1;
 }
 
-
-
-
-
-
 .errorMessage {
   color: #f45532;
   font-size: 14px;
@@ -310,12 +305,14 @@ input:focus {
     margin-left: 200px;
   }
 }
-
+/* Media Screen Nav */
 @media screen and (max-width: 992px) {
   nav {
      font-size: medium;
   }
 }
+
+/* Media Screen Header */
 @media screen and (max-width: 992px) {
   header a {
      font-size: medium;

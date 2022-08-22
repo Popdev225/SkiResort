@@ -119,6 +119,8 @@ Below are the screenshots of the walkthrough steps in which the user will able t
 
 - Once at the home page (landing page), the user will be able to do the checkout by paying for the package using Stripe Payment Platform as per below screenshot.
 
+  ![alt text](./client/public/images/ap04.jpg)
+
 
 
 ## References
