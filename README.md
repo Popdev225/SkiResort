@@ -89,7 +89,7 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
    * Purchase on 21/08
   ![alt text](./client/public/images/mongodbatlas2.jpg)
 
-- Click here for the deployed application [Heroku](https://still-harbor-63486.herokuapp.com/)
+- Click here for the deployed application on [Heroku](https://still-harbor-63486.herokuapp.com/)
 
 ## Usage
 
