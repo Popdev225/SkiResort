@@ -117,11 +117,15 @@ Below are the screenshots of the walkthrough steps in which the user will able t
 
   ![alt text](./client/public/images/ap04.jpg)
 
-- Once at the home page (landing page), the user will be able to do the checkout by paying for the package using Stripe Payment Platform as per below screenshot.  The successful payment will be display "Success ! Thank you for your purchase!"
+- Once at the home page (landing page), the user will be able to do the checkout by paying for the package using Stripe Payment Platform as per below screenshot.  The successful payment will be display "Success ! Thank you for your purchase!".  A screenshot is not possible for this message.
 
   ![alt text](./client/public/images/Stripe01.jpg)
 
-- 
+- If the user wishes to make a cancellation due to unforeseen circumstances or want to enquiry further about the package, a contact form is available for them to fill and also email validation is set up for the users to enter a valid email address and the message can be sent to the MERN Ski Resort Team.
+
+  ![alt text](./client/public/images/ap05.jpg)  
+
+  
 
 
 
