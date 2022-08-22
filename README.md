@@ -34,7 +34,7 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
 - In addition, the following npm packages were installed to this application:-
 
-  - Server (Back-End)
+  - Server (back end)
 
     - apollo-server-express (npm i apollo-server-express)
     - bcrypt (npm installl bcrypt)
@@ -45,7 +45,7 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
     - mongoose (npm install mongoose)
     - stripe (npm install stripe --save)
 
-  - Client (Front-End)
+  - Client (front end)
 
     - reactstrap (npm install reactstrap react react-dom)
     - bootstrap (npm install --save bootstap)
@@ -97,19 +97,17 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
 ## Usage
 
-Below are the screenshots of the walkthrough steps in which the user will able to browse through the different packages.  
+Below are the screenshots of the walkthrough steps in which the user will able to browse through the different packages.
 
-* As a user when I load on to website, 
-     *  I am able to see the landing page with the slider images
-     *  The navbar with the name of the resort
-     *  The login, register, about and the cart for checkout
-     *  A welcome message from the resort
-     *  A number of ski packages selection
+- As a user when I load on to website,
 
-         ![alt text](./client/public/images/ap01.jpg)
+  - I am able to see the landing page with the slider images
+  - The navbar with the name of the resort
+  - The login, register, about and the cart for checkout
+  - A welcome message from the resort
+  - A number of ski packages selection
 
-
-
+    ![alt text](./client/public/images/ap01.jpg)
 
 ## References
 
