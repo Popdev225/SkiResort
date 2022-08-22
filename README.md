@@ -4,7 +4,7 @@
 
 ## Description
 
-This project is to build an application encouraging the users to stay active, enjoy the fresh air and sunshine found on the top of the mountain. Skiing is an excellent way to burn a ton of calories while getting in some great runs and feeling healthier. The application will be created as a MERN stack single-page application in which the users will be able to browse through the different ski packages and add the package or remove the package before checkout. Stripe payment platform will be used for the users to pay for the package. Contact Form will be used for the users to contact MERN Ski Resort Team in case of cancellation due to unforeseen circumstances.
+This project is to build an application encouraging the users to stay active, enjoy the fresh air and sunshine found on the top of the mountain. Skiing is an excellent way to burn a ton of calories while getting in some great runs and feeling healthier. The application will be created as a MERN stack single-page application in which the users will be able to browse through the different ski packages and add the package or remove the package before checkout. Stripe payment platform will be used for the users to pay for the package. Contact Form will be used for the users to contact MERN Ski Resort Team in case of cancellation due to unforeseen circumstances or other enquiries.
 
 The URL of the GitHub repository is https://github.com/stellalph/MERN-Ski-Resort.git and the repository name is MERN-Ski-Resort.
 
@@ -149,7 +149,6 @@ Below are the screenshots of the walkthrough steps in which the user will able t
 - How to integrate Stripe with a React Application by Mohammed Faisal dated September, 2021
 - [Apollo Documentation](https://www.apollographql.com/docs/)
 - The Unit Ahead Material Unit 21 - MERN, React Router, GraphQL and JSON Web Token
-
 
 ## License
 
