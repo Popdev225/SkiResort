@@ -140,6 +140,16 @@ Below are the screenshots of the walkthrough steps in which the user will able t
 - Request Response - The Full Stack Blog - Using the GraphQL Playground in a MERN application dated May 19, 2022
 - [ReactJS Reactstrap Carousel Component - Geeksforgeeks.org dated 22 Jul, 2021](https://www.geeksforgeeks.org/reactjs-reactstrap-carousel-component/)
 - [React Icons](https://react-icons.github.io/react-icons/)
+- [Reactstrap Library and Documentation](https://reactstrap.github.io/?path=/docs/components-carousel--carousel)
+- [React Bootstrap Documenation](https://react-bootstrap.github.io/)
+- [EmailJS Documentation](https://www.emailjs.com/docs/sdk/send/)
+- [Stripe Documentation](https://www.emailjs.com/docs/sdk/send/)
+- [JWT Documentation](https://jwt.io/introduction/)
+- How to use react-icons to install Font Awesome in a React app by Miracle Ugorji dated September 20, 2021
+- How to integrate Stripe with a React Application by Mohammed Faisal dated September, 2021
+- [Apollo Documentation](https://www.apollographql.com/docs/)
+- The Unit Ahead Material Unit 21 - MERN, React Router, GraphQL and JSON Web Token
+
 
 ## License
 
