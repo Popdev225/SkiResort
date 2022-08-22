@@ -10,7 +10,7 @@ The URL of the GitHub repository is https://github.com/stellalph/MERN-Ski-Resort
 
 The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
-Project 3 Contributor :  Stella Ling
+Project 3 Contributor : Stella Ling
 
 ## Table of Contents
 
@@ -101,27 +101,22 @@ Project 3 Contributor :  Stella Ling
 
 Below are the screenshots of the walkthrough steps in which the user will able to browse through the different packages.
 
-* When the user load onto the website, the user would be able to see:-
+- When the user load onto the website, the user would be able to see the landing page, the navbar with the name of the resort, the login, register, about, the cart for checkout, welcome message from the resort and a number of ski packages selection.
 
-  * The landing page with the slider images
-  * The navbar with the name of the resort
-  * The login, register, about and the cart for checkout
-  * A welcome message from the resort
-  * A number of ski packages selection
+  ![alt text](./client/public/images/ap01.jpg)
 
-    ![alt text](./client/public/images/ap01.jpg)
+- When the user choose a category, the user will only see the ski packages under that category (Group in the screenshot below):-
 
-* When the user choose a category, the user will only see the ski packages under that category (Group in the screenshot below):-
+  ![alt text](./client/public/images/ap01a.jpg)
 
-    ![alt text](./client/public/images/ap01a.jpg)
+- When the user click on "Family Package 7 days", the user will taken to the page which shows more information about the product/package and the user click on "Add to Cart", the pop up message will prompt the user to log in before proceeding.
 
-* When the user click on "Family Package 7 days", the user will taken to the page which shows more information about the product/package and the user click on "Add to Cart", the pop up message will prompt the user to log in before proceeding.
+  ![alt text](./client/public/images/ap02.jpg)
 
-    ![alt text](./client/public/images/ap02.jpg)
+- When the user click on the "Register", the user will be taken to the Register page prompting the user to enter their first name,
 
-
-
-
+  ![alt text](./client/public/images/ap04.jpg)
+  
 
 ## References
 
