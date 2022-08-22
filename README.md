@@ -77,7 +77,7 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
   ![alt text](./client/public/images/GraphQLex.jpg)
 
-- This application also uses sensitive API key information on the server - JWT, MONGODB_URL and Stripe Secret Key has loaded onto .ENV file has been loaded for the protection. Emailjs 's template ID, Service ID and User ID has also relocated to .ENV file on the client's side.
+- This application also uses sensitive API key information on the server - JWT, MONGODB_URI and Stripe Secret Key has loaded onto .ENV file has been loaded for the protection. Emailjs 's template ID, Service ID and User ID has also relocated to .ENV file on the client's side.
 
 ## Deployment
 
