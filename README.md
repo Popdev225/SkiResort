@@ -10,7 +10,7 @@ The URL of the GitHub repository is https://github.com/stellalph/MERN-Ski-Resort
 
 The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
-Project 3 Contributor : Stella Ling
+**Project 3 Contributor** : Stella Ling
 
 ## Table of Contents
 
