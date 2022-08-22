@@ -125,6 +125,10 @@ Below are the screenshots of the walkthrough steps in which the user will able t
 
   ![alt text](./client/public/images/ap05.jpg)  
 
+- The email sent from MERN Ski Resort website:-
+
+  ![alt text](./client/public/images/EMJ.jpg)
+
   
 
 
