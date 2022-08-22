@@ -113,31 +113,33 @@ Below are the screenshots of the walkthrough steps in which the user will able t
 
   ![alt text](./client/public/images/ap02.jpg)
 
-- When the user click on the "Register", the user will be taken to the Register page prompting the user to enter their first name, last name, email, and password.  Once submitted, the user will taken back to the home page (MERN Ski Resort)
+- When the user click on the "Register", the user will be taken to the Register page prompting the user to enter their first name, last name, email, and password. Once submitted, the user will taken back to the home page (MERN Ski Resort)
 
   ![alt text](./client/public/images/ap04.jpg)
 
-- Once at the home page (landing page), the user will be able to do the checkout by paying for the package using Stripe Payment Platform as per below screenshot.  The successful payment will be display "Success ! Thank you for your purchase!".  A screenshot is not possible for this message.
+- Once at the home page (landing page), the user will be able to do the checkout by paying for the package using Stripe Payment Platform as per below screenshot. The successful payment will be display "Success ! Thank you for your purchase!". A screenshot is not possible for this message.
 
   ![alt text](./client/public/images/Stripe01.jpg)
 
 - If the user wishes to make a cancellation due to unforeseen circumstances or want to enquiry further about the package, a contact form is available for them to fill and also email validation is set up for the users to enter a valid email address and the message can be sent to the MERN Ski Resort Team.
 
-  ![alt text](./client/public/images/ap05.jpg)  
+  ![alt text](./client/public/images/ap05.jpg)
 
 - The email sent from MERN Ski Resort website:-
 
   ![alt text](./client/public/images/EMJ.jpg)
 
-  
+- Email validate on the contact form:-
 
-
+  ![alt text](./client/public/images/EmailValidate.jpg)
 
 ## References
 
 - Request Response - The Full Stack Blog - Set up MongoDB Atlas dated May 10, 2022
 - Request Response - The Full Stack Blog - Deploy with Heroku and MongoDB Atlas dated July, 2022
 - Request Response - The Full Stack Blog - Using the GraphQL Playground in a MERN application dated May 19, 2022
+- [ReactJS Reactstrap Carousel Component - Geeksforgeeks.org dated 22 Jul, 2021](https://www.geeksforgeeks.org/reactjs-reactstrap-carousel-component/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
 ## License
 
