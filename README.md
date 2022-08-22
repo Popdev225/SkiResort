@@ -26,7 +26,7 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
   - GraphQL with a Node.js and Express.js server for the method called to store and retrieve data,
   - MongoDB and Mongoose ODM for the database (Model) to store raw data and contains no logic.
 
-- As a start and at the command prompt, type in _npm install_ to ensure all that the dependencies are installed.
+- As a start and at the command prompt, type in *npm install* to ensure all that the dependencies are installed.
 
 - In addition, the following npm packages were installed to this application:-
 
@@ -81,12 +81,20 @@ The URL of the deployed application is https://still-harbor-63486.herokuapp.com/
 
 ## Deployment
 
-- This application has been deployed to Heroku with MongoDB database using MongoDB Atlas and below is an example of MongoDB database using MongoDB Atlas (products, users and purchase history):-
-
+- This application has been deployed to Heroku with MongoDB database using MongoDB Atlas and below is an example of MongoDB database using MongoDB Atlas (products and purchase history):-
+    
+   * Products/Package
   ![alt text](./client/public/images/mongodbatlas.jpg)
+
+   * Purchase on 21/08
   ![alt text](./client/public/images/mongodbatlas2.jpg)
 
+- Click here for the deployed application [Heroku](https://still-harbor-63486.herokuapp.com/)
+
 ## Usage
+
+
+
 
 ## References
 
