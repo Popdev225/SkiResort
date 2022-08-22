@@ -113,10 +113,13 @@ Below are the screenshots of the walkthrough steps in which the user will able t
 
   ![alt text](./client/public/images/ap02.jpg)
 
-- When the user click on the "Register", the user will be taken to the Register page prompting the user to enter their first name,
+- When the user click on the "Register", the user will be taken to the Register page prompting the user to enter their first name, last name, email, and password.  Once submitted, the user will taken back to the home page (MERN Ski Resort)
 
   ![alt text](./client/public/images/ap04.jpg)
-  
+
+- Once at the home page (landing page), the user will be able to do the checkout by paying for the package using Stripe Payment Platform as per below screenshot.
+
+
 
 ## References
 
