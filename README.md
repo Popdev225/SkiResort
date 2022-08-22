@@ -119,7 +119,7 @@ Below are the screenshots of the walkthrough steps in which the user will able t
 
 - Once at the home page (landing page), the user will be able to do the checkout by paying for the package using Stripe Payment Platform as per below screenshot.  The successful payment will be display "Success ! Thank you for your purchase!"
 
-  ![alt text](./client/public/images/stripe01.jpg)
+  ![alt text](./client/public/images/Stripe01.jpg)
 
 - 
 
